@@ -1,8 +1,4 @@
-@media (min-width: 600px) and (max-width: 768px) {
-    body {
-      /* background-color: #de3163; */
-    }
-  }
+
 .nav{
     display:flex;
     justify-content: space-between;
@@ -49,14 +45,33 @@ nav ul li{
 #house{
     width: 50%;
     margin-left: 3%;
+    opacity: 0.5;
+    padding-left: 10%;
+}
+#butt{
+    background-color: yellow;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px solid yellow;
 }
 .cont{
     display: flex;
     justify-content: space-between;
+    
+}
+.up{
+    margin-right: -45%;
+    margin-top: 2%;
+    font-weight: bold;
+
 }
 .side{
     border: 2px solid black;
     margin-right: 10%;
+    font-weight: bold;
+    width: 20%;
+    text-align: center;
+    
 
 }
 #view{
@@ -225,4 +240,22 @@ width: 20%;
     font-size: larger;
     color:white; 
     
+}
+#select{
+    border:2px;
+    background-color: #ffd600;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: bolder;
+    font-size: larger;
+    color:white; 
+    width: 50%;
+     
+}
+@media (min-width: 400px) and (max-width: 500px) {
+    nav{ 
+        /* width: 100%; */
+        padding: 0;
+        margin: 0;
+    }
 }
