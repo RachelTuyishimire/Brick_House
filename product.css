@@ -1,0 +1,269 @@
+.nav{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 30%;
+  
+  }
+  nav ul li{
+    display:inline-block;
+    padding:10px 10px;
+    font-size: large;
+  }
+  .header{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid yellow;
+    background-color: yellow;
+    justify-content: space-between;
+  
+  }
+  #brick{
+    font-weight: bold;
+  }
+  #catalog{
+    border: 2px solid whitesmoke;
+    border-radius: 10%;
+  }
+  .british{
+    width: 10%;
+    border: 2px solid none;
+    border-radius: 10%;
+  }
+  .pink{
+    border: 3px solid rgb(236, 82, 133);
+    border-radius: 18%;
+    background-color: rgb(236, 82, 133);
+    color: white;
+    margin-left: 5%;
+  
+  }
+  .star{
+    width: 45%;
+  }
+  .part1{
+    display: flex;
+    margin-left: 5%;
+  }
+  #paragraph{
+    font-weight:bold;
+    font-size: larger;
+    font-size: 50px;
+  }
+  #full{
+   color: grey
+  }
+  .side{
+    margin-left: 15%;
+  }
+  #stars{
+    color: #ffd600;
+
+  }
+  #now{
+    color: green;
+  }
+  #p{
+    font-weight: bold;
+  }
+  #pass{
+    margin-top: -12%;
+    margin-left: 35%;
+    color: lightgrey;
+  }
+  #line{
+    color: lightgray;
+  }
+  #minus{
+   border: 5px;
+   border-radius: 5px ;
+  }
+  #plus{
+    background-color: #ffd600;
+    color: white;
+    border: 5px;
+    border-radius: 5px #ffd600;
+  }
+  #add{
+    border:15px solid #ffd600;
+    background-color: #ffd600;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: large;
+    color:white; 
+   
+  }
+  #heart{
+    border: 12px #ffd600 solid;
+    border-radius: 15px;
+    font-weight: bolder;
+    background-color: #ffd600;
+    color: white;
+  }
+  #chart{
+    color: rgb(236, 82, 133);
+    align-items: center;
+  }
+  #free{
+    color: red;
+  }
+  #bulb{
+    color:#ffd600
+  }
+  #see{
+    margin-left: 80%;
+    margin-top: -8%;
+    color: rgb(236, 82, 133);
+  }
+  #del{
+    color: green;
+    margin-left: 80%;
+    margin-top: -7%;
+  }
+  .button{
+    align-items: center;
+    margin-left: 40%;
+    justify-content: space-between;
+    margin-top: -2%;
+    
+  }
+  .sentence{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
+  .fun{
+    text-align: center;
+  }
+  #mach{
+   width: 20%;
+   margin-left: 19%;
+   border: 3px solid #ffd600;
+   border-radius: 18%;
+  }
+  #gunmach{
+width: 20%;
+margin-left: 16%;
+margin-right: -5%;
+border: 3px solid #ffd600;
+border-radius: 18%;
+  }
+  #gun{
+    width: 20%;
+margin-left: 35%;
+border: 3px solid #ffd600;
+border-radius: 18%;
+  }
+  #about{
+    border:15px #ffd600 solid;
+    background-color: #ffd600;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: large;
+    color:white; 
+    
+   
+  }
+  #review{ 
+    border:15px whitesmoke solid;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: large;
+    color:whitesmoke; 
+    color:white; 
+   
+  }
+  #video{
+    border:15px whitesmoke solid;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: large;
+    color:whitesmoke; 
+    color:white; 
+  }
+  #you{
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+  }
+  .last{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  #img1{
+    width: 80%;
+  }
+  #img2{
+    width: 70%;
+  }
+  #img3{
+    width: 80%;
+  }
+  #img4{
+    width: 70%;
+  }
+  .footer{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: large;
+   
+    padding-left: 5%;
+    background-color: #26004c;
+    color: white;
+    /* margin-top: 20%; */
+  }
+  #cart{
+    margin-left: 40%;
+    margin-top: -15%;
+    color:lightgray;
+  }
+  #dollar{
+color:red
+  }
+  #title{
+    font-weight: bold;
+  }
+  #input{
+    margin-left: -23%;
+    opacity: 0.5;
+  }
+  #search{
+    margin-right: -2%;
+    margin-top: 1.3%;
+    font-weight: bolder;
+    font-size: medium;
+  }
+  .icons{
+
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 5%;
+  }
+  .icon{
+    display:flex;
+    justify-content: space-between;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+  }
+  #update{
+    margin-left: 30%;
+  }
+  #under{
+    color:whitesmoke;
+    margin-top: -0.2%;
+  }
+  @media  only screen and (max-width: 1024px){
+    .nav{
+      width: 10px;
+    }
+    /* .header{
+      width: 15px;
+    } */
+  }
+    
+  

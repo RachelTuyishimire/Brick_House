@@ -20,6 +20,7 @@ nav ul li{
 
 }
 #catalog{
+    cursor: pointer;
     border:2px;
     background-color: rgb(209, 212, 0);
     padding: 9px 7px;
@@ -27,6 +28,12 @@ nav ul li{
     font-weight: bolder;
     font-size: medium;
     color:white;
+}
+#catalog:hover{
+    filter:brightness(110%);
+}
+#catalog:active{
+    transform: translate(1sec);
 }
 #input{
     border: 2px white solid;
