@@ -261,22 +261,70 @@ width: 20%;
 }
 
 @media only screen and(max-width:700px) {
-    body{
+    .body{
     display: grid;
-    width: 30%;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat( 1fr);
     }
+    nav{
+      display: grid;
+      grid-template-columns: ( 1fr) ;
+      margin-right: 10%;
     }
- /* Mobile Responsive CSS */
-    @media only screen and (max-width: 767px) {
-        .header{
-            
-        }
-        .nav{
-            display: grid;
-        }
+    header{
+      display: grid;
+      grid-template-columns: repeat(1fr);
+      padding: 10%;
+    }
+    .footer{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
 
     }
- /* /* Tablet Responsive CSS * */
+    .side{
+      display: grid;
+      margin-right: 10px;
+      
+    }
+    .cont{
+      display: grid;
+      margin: 10%
+    }
+    #save{
+      display: grid;
+      border: 20px solid green;
+      margin-left: -7%;
+    }
+    .end{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+
+    }
+    #img5{
+      display: grid;
+      grid-template-columns: repeat( 1fr);
+    }
+    #img6{
+      display: grid;
+      grid-template-columns: repeat( 1fr);
+    }
+    #img7{
+      display: grid;
+      grid-template-columns: repeat( 1fr);
+    }
+    #img8{
+      display: grid;
+      grid-template-columns: repeat(1fr);
+    }
+  }
+ 
+    @media only screen and (max-width: 767px) {
+      .footer{
+       display: grid;
+        }
+    }
+ 
         @media only screen and (min-width: 768px) and (max-width: 991px) {
+          .footer{
+            display: grid;
+            }
         }
