@@ -1,0 +1,170 @@
+.nav{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 30%;
+  
+  }
+  nav ul li{
+    display:inline-block;
+    padding:10px 10px;
+    font-size: large;
+  }
+  .header{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid yellow;
+    background-color: yellow;
+    justify-content: space-between;
+  
+  }
+  #brick{
+    font-weight: bold;
+  }
+  #catalog{
+    border: 2px solid whitesmoke;
+    border-radius: 10%;
+  }
+  .british{
+    width: 10%;
+    border: 2px solid none;
+    border-radius: 10%;
+  }
+  .footer{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: large;
+   
+    padding-left: 5%;
+    background-color: #26004c;
+    color: white;
+    /* margin-top: 20%; */
+  }
+  .your{
+    font-weight: bolder;
+    font-size: large;
+    margin-left: 5%;
+  }
+  .cont{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+  }
+  .side{
+    border: 5px solid whitesmoke;
+    margin-right: 10%;
+    border-radius: 20px;
+    margin-left: 5%;
+    width: 20%;
+  
+
+  }
+  .imgs{
+    display: flex;
+    flex-direction: column;
+  }
+  .may{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .end{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+  }
+  #pic1{
+    width: 40%;
+  }
+  #pic2{
+    width: 40%;
+  }
+  #pic3{
+    width: 40%;
+  }
+  #img5{
+
+  }
+  #img6{
+
+  }
+  #img7{
+
+  }
+  #img8{
+
+  }
+  #apart{
+    margin-left: 50% ;
+    margin-top: -37%;
+    font-weight: bold;
+  }
+ #apar{
+  margin-left: 50%;
+  margin-top: -37%;
+  font-weight: bold;
+ }
+ #apa{
+  margin-left: 50%;
+  margin-top: -37%;
+  font-weight: bold;
+ }
+ #aside{
+  margin-left: 150%;
+  margin-top: -7%;
+ }
+ #min{
+  border: 5px;
+  border-radius: 5px ;
+ }
+  #save{
+    border: 3px solid green;
+    align-items: center;
+    color: green;
+    /* text-align: center; */
+    margin-left: 7%;
+    margin-top: 4%;
+  }
+  #make{
+    border: 5px solid yellow;
+    background-color: yellow;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    margin-left: 25%;
+  }
+  #para{
+    font-weight: bold;
+  }
+  #inst{
+    color: gray;
+    margin-left: 4%;
+  }
+  #frw{
+    color: gray;
+    margin-left: 55%;
+    margin-top: -18%;
+  }
+  .free{
+    color: green;
+    margin-left: 35%;
+    margin-top: -9%;
+  }
+ 
+  @media only screen and(max-width:700px) {
+    body{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    }
+    nav{
+      
+    }
+  }
+ /* Mobile Responsive CSS
+    @media only screen and (max-width: 767px) {
+
+    }
+ Tablet Responsive CSS *
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+        } */
