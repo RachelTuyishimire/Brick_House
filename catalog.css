@@ -289,50 +289,185 @@
       grid-template-columns: repeat(1, 1fr);
 
     }
-    .side{
-      display: grid;
-      margin-right: 10px;
-      
-    }
-    .cont{
-      display: grid;
-      margin: 10%
-    }
-    #save{
-      display: grid;
-      border: 20px solid green;
-      margin-left: -7%;
-    }
-    .end{
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-    }
-    #img5{
-      display: grid;
-      grid-template-columns: repeat( 1fr);
-    }
-    #img6{
-      display: grid;
-      grid-template-columns: repeat( 1fr);
-    }
-    #img7{
-      display: grid;
-      grid-template-columns: repeat( 1fr);
-    }
-    #img8{
+    .subhead{
       display: grid;
       grid-template-columns: repeat(1fr);
+      margin-right: 10%;
+
+    }
+    .check{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      font-size: small;
+    }
+    .imagesone{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      font-size: small;
+
+    }
+    .images{
+      display:grid;
+      grid-template-columns: repeat(1, 1fr);
+      font-size: small;
+    }
+    .imagestwo{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      font-size: small;
+    }
+    .imagesthree{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      font-size: small;
+    }
+    .imagesfour{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      font-size: small;
+    }
+    .imagesfive{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      font-size: small;
+    }
+    .check{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+
+
+    }
+    .inside{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+
     }
   }
  
     @media only screen and (max-width: 767px) {
-      .footer{
-       display: grid;
+      .body{
+        display: grid;
+        grid-template-columns: repeat( 1fr);
         }
+        nav{
+          display: grid;
+          grid-template-columns: ( 1fr) ;
+          margin-right: 10%;
+        }
+        header{
+          display: grid;
+          grid-template-columns: repeat(1fr);
+          padding: 10%;
+        }
+        .footer{
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+    
+        }
+        .subhead{
+          display: grid;
+          grid-template-columns: repeat(1fr);
+          margin-right: 10%;
+    
+        }
+        .check{
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          font-size: small;
+        }
+        .imagesone{
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          font-size: small;
+    
+        }
+        .images{
+          display:grid;
+          grid-template-columns: repeat(1, 1fr);
+          font-size: small;
+        }
+        .imagestwo{
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          font-size: small;
+        }
+        .imagesthree{
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          font-size: small;
+        }
+        .imagesfour{
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          font-size: small;
+        }
+        .imagesfive{
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          font-size: small;
+        }
+     
     }
  
         @media only screen and (min-width: 768px) and (max-width: 991px) {
-          .footer{
+          .body{
             display: grid;
+            grid-template-columns: repeat( 1fr);
+            }
+            nav{
+              display: grid;
+              grid-template-columns: ( 1fr) ;
+              margin-right: 10%;
+            }
+            header{
+              display: grid;
+              grid-template-columns: repeat(1fr);
+              padding: 10%;
+            }
+            .footer{
+              display: grid;
+              grid-template-columns: repeat(1, 1fr);
+        
+            }
+            .subhead{
+              display: grid;
+              grid-template-columns: repeat(1fr);
+              margin-right: 10%;
+        
+            }
+            .check{
+              display: grid;
+              grid-template-columns: repeat(1, 1fr);
+            }
+            .imagesone{
+              display: grid;
+              grid-template-columns: repeat(1, 1fr);
+              font-size: small;
+        
+            }
+            .images{
+              display:grid;
+              grid-template-columns: repeat(1, 1fr);
+              font-size: small;
+            }
+            .imagestwo{
+              display: grid;
+              grid-template-columns: repeat(1, 1fr);
+              font-size: small;
+            }
+            .imagesthree{
+              display: grid;
+              grid-template-columns: repeat(1, 1fr);
+              font-size: small;
+            }
+            .imagesfour{
+              display: grid;
+              grid-template-columns: repeat(1, 1fr);
+              font-size: small;
+            }
+            .imagesfive{
+              display: grid;
+              grid-template-columns: repeat(1, 1fr);
+              font-size: small;
             }
         }

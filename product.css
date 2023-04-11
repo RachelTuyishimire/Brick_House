@@ -311,17 +311,35 @@ color:red
       display: grid;
       grid-template-columns: repeat(1fr);
     }
+    .imgs{
+      display: grid;
+      grid-template-columns: repeat( 1fr);
+      padding-right: 20px;
+      
+    }
   }
  
     @media only screen and (max-width: 767px) {
       .footer{
        display: grid;
         }
+        .imgs{
+          display: grid;
+          grid-template-columns: repeat( 1fr);
+          padding-right: 20px;
+          
+        }
     }
  
         @media only screen and (min-width: 768px) and (max-width: 991px) {
           .footer{
             display: grid;
+            }
+            .imgs{
+              display: grid;
+              grid-template-columns: repeat( 1fr);
+              padding-right: 20px;
+              
             }
         }
   
