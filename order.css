@@ -1,0 +1,48 @@
+.nav{
+    border: 2px solid #FFD600;
+    background-color: #FFD600;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-weight: bold;
+    
+}
+#name{
+    margin-left: 20%;
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    margin-left: 5%;
+}
+.right{
+    border: 3px solid grey;
+    border-radius: 15px solid grey;
+    margin-right: 20%;
+    margin-top: 2%;
+}
+.enter{
+    font-weight: bold;
+    font-size: xx-large;
+}
+#first{
+    font-weight: bold;
+}
+#kyl{
+    border-radius: 5px solid grey;
+}
+#last{
+    /* margin-left: 30%;
+    margin-top: -10%; */
+}
+#kor{
+    margin-left: 15%;
+    margin-bottom: 3%;
+}
+#lasti{
+    margin-left: 60%;
+    margin-top: -5%;
+}
