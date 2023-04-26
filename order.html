@@ -12,7 +12,7 @@
     <title>Order Confirming</title>
 </head>
 <body>
-    <div class="nav">
+    <div class="navi">
         <p id="name">BrickHouse</p>
         <br/>
         <p><i class="fa fa-envelope-o" aria-hidden="true"></i>infobhouse@gmail.com</p>
@@ -29,10 +29,10 @@
     </div>
     <br/>
     <br/>
-    <label>Phone number</label>
-    <input type="number" placeholder="+380 (68) 123-45-67">
-    <label>Gmail</label>
-    <input type="email" placeholder="mygmail12@gmail.com">
+    <label id="nums">Phone number</label><br/>
+    <input id="num" type="number" placeholder="+380 (68) 123-45-67">
+    <label id="mail">Gmail</label><br/>
+    <input id="myg" type="email" placeholder="mygmail12@gmail.com">
     </div>
     <div class="side">
         <p class="your">Products amount:</p>
@@ -41,7 +41,7 @@
         <p>Delivery:</p><p>Free</p>
         <input id="save" type="text" placeholder="You save $70">
         <br/>
-        <button>Promocode</button>
+        <input id="promo" type="text" placeholder="Promocode"><i class="fa fa-plus-circle" aria-hidden="true"></i>
         <br/>
         <br/>
         <button id="make">confirm order</button>
@@ -50,14 +50,24 @@
     <br/>
     <br/>
     <br/>
-    <p>Enter a delivery method</p>
+    <h1 id="enter">Enter a delivery method</h1>
+    <div class="down">
+    <!-- <p id="enter">Enter a delivery method</p> -->
     <div class="icons">
-        <i id="chart" class="fa fa-shopping-cart" aria-hidden="true"></i>Pickup from stores   <u> <p id="see" > Seeaddresses </p></u>
+        <i id="charti" class="fa fa-shopping-cart" aria-hidden="true"></i>Pickup from stores   <u> <p id="isee" > Seeaddresses </p></u>
          <br/>
-         <i id="free" class="fa fa-arrows" aria-hidden="true"></i> Nova Poshta delivery   <u> <p id="del">  Freedelivery </p></u>
+         <i id="plusi" class="fa fa-arrows" aria-hidden="true"></i> Nova Poshta delivery   <u> <p id="deli">  Freedelivery </p></u>
          <br/>
-         <i id="bulb" class="fa fa-lightbulb-o" aria-hidden="true"></i> Ukrposhta delivery <u ><p id="del"> Freedelivery </p></u>
+         <i id="bulb" class="fa fa-lightbulb-o" aria-hidden="true"></i> Ukrposhta delivery  <u ><p id="dely"> Freedelivery </p></u>
          </div>
+         </div>
+         <div class="fin">
+         <h1 id="select">Select a payment method</h1>
+         
+         <i class="fa fa-money" aria-hidden="true"></i> Cash <i id="not" class="fa fa-info-circle" aria-hidden="true"></i><br/><br/>
+         <i class="fa fa-google" aria-hidden="true"></i> Google pay<i id="noti" class="fa fa-info-circle" aria-hidden="true"></i><br/><br/>
+         <i class="fa fa-apple" aria-hidden="true"></i> Apple pay<i id="notif" class="fa fa-info-circle" aria-hidden="true"></i><br/>
+</div>
     
 </body>
 </html>
